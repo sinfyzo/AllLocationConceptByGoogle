@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AllLocationConceptByGoogle</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+    <!--for basic location-->
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="basic_location_sample">Basic Location Sample</string>
+
+    <!--for location address-->
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="location_address">Getting the location address</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+    <string name="location_updates_forground">Location Updates ForegroundService</string>
+
+    <string name="location_updates_pending_intent">Location Updates PendingIntent</string>
+    <string name="request_updates">Request updates</string>
+    <string name="remove_updates">Remove updates</string>
+    <string name="unknown_location">Unknown location</string>
+    <string name="batched_location_updates">Batched location updates</string>
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+</resources>
